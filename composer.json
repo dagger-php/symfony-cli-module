@@ -1,0 +1,28 @@
+{
+  "name": "daggerverse/symfony-cli",
+  "description": "Dagger module for symfony-cli",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mathieu Santostefano",
+      "email": "msantostefano@proton.me"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "path",
+      "url": "./sdk"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "dagger/dagger": "*@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "DaggerModule\\": "src/"
+    }
+  }
+}
